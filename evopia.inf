@@ -1,0 +1,15 @@
+[Version]
+Signature="$Windows NT$"
+
+[NewRequest]
+Subject = "CN=192.168.100.21"
+KeyLength = 2048
+KeyAlgorithm = RSA
+HashAlgorithm = sha256
+MachineKeySet = TRUE
+Exportable = TRUE
+RequestType = Cert
+
+[Extensions]
+2.5.29.17 = "{text}"
+_continue_ = "IP Address=192.168.100.21"
