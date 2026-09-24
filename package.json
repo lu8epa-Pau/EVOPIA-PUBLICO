@@ -1,0 +1,13 @@
+{
+  "name": "evopia-completa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "selfsigned": "^2.4.1",
+    "ws": "^8.18.0"
+  }
+}
